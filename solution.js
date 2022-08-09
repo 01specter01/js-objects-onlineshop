@@ -221,51 +221,66 @@ const products = [
     },
 ];
 
+let autoArr = [];
+let musicArr = [];
+let movieArr = [];
+let homeArr = [];
+let beautyArr = [];
+let clothArr = [];
+let gardenArr = [];
+let toolArr = [];
+let groceryArr = [];
+let gameArr = [];
+let toyArr = [];
+let sportArr = [];
+let computerArr = [];
+let outdoorArr = [];
+let bookArr = [];
+
 for (let i = 0; i < products.length; i++) {
     if (products[i].category == "Automotive") {
-        let autoArr = products[i];
-        console.log(autoArr);
+        autoArr.push();
     } else if (products[i].category == "Music") {
         let musicArr = products[i];
-        console.log(musicArr);
+        console.log();
     } else if (products[i].category == "Movies") {
         let movieArr = products[i];
-        console.log(movieArr);
+        console.log();
     } else if (products[i].category == "Home") {
         let homeArr = products[i];
-        console.log(homeArr);
+        console.log();
     } else if (products[i].category == "Beauty") {
         let beautyArr = products[i];
-        console.log(beautyArr);
+        console.log();
     } else if (products[i].category == "Clothing") {
         let clothArr = products[i];
-        console.log(clothArr);
+        console.log();
     } else if (products[i].category == "Garden") {
         let gardenArr = products[i];
-        console.log(gardenArr);
+        console.log();
     } else if (products[i].category == "Books") {
         let bookArr = products[i];
-        console.log(bookArr);
+        console.log();
     } else if (products[i].category == "Tools") {
         let toolArr = products[i];
-        console.log(toolArr);
+        console.log();
     } else if (products[i].category == "Grocery") {
         let groceryArr = products[i];
-        console.log(groceryArr);
+        console.log();
     } else if (products[i].category == "Games") {
         let gameArr = products[i];
-        console.log(gameArr);
+        console.log();
     } else if (products[i].category == "Outdoors") {
         let outdoorArr = products[i];
-        console.log(outdoorArr);
+        console.log();
     } else if (products[i].category == "Computers") {
         let computerArr = products[i];
-        console.log(computerArr);
+        console.log();
     } else if (products[i].category == "Sports") {
         let sportArr = products[i];
-        console.log(sportArr);
+        console.log();
     } else if (products[i].category == "Toys") {
         let toyArr = products[i];
-        console.log(toyArr);
+        console.log();
     }
 }
