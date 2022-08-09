@@ -223,12 +223,49 @@ const products = [
 
 for (let i = 0; i < products.length; i++) {
     if (products[i].category == "Automotive") {
-        console.log(products[i]);
+        let autoArr = products[i];
+        console.log(autoArr);
     } else if (products[i].category == "Music") {
-        console.log(products[i]);
+        let musicArr = products[i];
+        console.log(musicArr);
     } else if (products[i].category == "Movies") {
-        console.log(products[i]);
+        let movieArr = products[i];
+        console.log(movieArr);
     } else if (products[i].category == "Home") {
-        console.log(products[i]);
+        let homeArr = products[i];
+        console.log(homeArr);
+    } else if (products[i].category == "Beauty") {
+        let beautyArr = products[i];
+        console.log(beautyArr);
+    } else if (products[i].category == "Clothing") {
+        let clothArr = products[i];
+        console.log(clothArr);
+    } else if (products[i].category == "Garden") {
+        let gardenArr = products[i];
+        console.log(gardenArr);
+    } else if (products[i].category == "Books") {
+        let bookArr = products[i];
+        console.log(bookArr);
+    } else if (products[i].category == "Tools") {
+        let toolArr = products[i];
+        console.log(toolArr);
+    } else if (products[i].category == "Grocery") {
+        let groceryArr = products[i];
+        console.log(groceryArr);
+    } else if (products[i].category == "Games") {
+        let gameArr = products[i];
+        console.log(gameArr);
+    } else if (products[i].category == "Outdoors") {
+        let outdoorArr = products[i];
+        console.log(outdoorArr);
+    } else if (products[i].category == "Computers") {
+        let computerArr = products[i];
+        console.log(computerArr);
+    } else if (products[i].category == "Sports") {
+        let sportArr = products[i];
+        console.log(sportArr);
+    } else if (products[i].category == "Toys") {
+        let toyArr = products[i];
+        console.log(toyArr);
     }
 }
